@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Dhananjay</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+    
+    <style>
+        body { 
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+        }
+        .unicode-text { 
+            font-family: 'Arial', 'Segoe UI Symbol', 'Noto Sans', sans-serif; 
+        }
+        /* Gradient text */
+        .gradient-text {
+            background: linear-gradient(90deg, #ff6a00, #ee0979);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        /* Button hover effect */
+        .btn-hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+
+    <div class="w-full max-w-md mx-auto bg-white bg-opacity-80 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden p-8">
+
+        <!-- Dr.🩺Ai. Heading -->
+        <div class="text-center mb-4 unicode-text">
+            <h1 class="text-3xl font-extrabold gradient-text">Dr.🩺𝐀𝐢.</h1>
+        </div>
+
+        <!-- Circular Photo -->
+        <div class="text-center mb-4">
+            <img src="https://raw.githubusercontent.com/username/repo/main/profile.jpg" 
+                 alt="Dhananjay" 
+                 class="w-28 h-28 mx-auto rounded-full border-4 border-white shadow-xl">
+        </div>
+
+        <!-- Namaste Greeting -->
+        <div class="text-center mb-8 unicode-text">
+            <h2 class="text-xl font-semibold gradient-text">🙏🏻 𝐍𝐚𝐦𝐚𝐬𝐭𝐞 🙏🏻</h2>
+        </div>
+
+        <!-- Contact Buttons -->
+        <div class="space-y-4 unicode-text">
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/919219671761" target="_blank" class="group flex items-center justify-center w-full px-5 py-3 font-semibold text-white bg-gradient-to-r from-green-400 to-green-600 rounded-xl shadow-md btn-hover transition-transform duration-300">
+                <i class="fab fa-whatsapp text-2xl mr-3"></i>
+                <span>𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩</span>
+            </a>
+
+            <!-- Telegram -->
+            <a href="https://t.me/cytoaispecialist" target="_blank" class="group flex items-center justify-center w-full px-5 py-3 font-semibold text-white bg-gradient-to-r from-blue-400 to-blue-600 rounded-xl shadow-md btn-hover transition-transform duration-300">
+                <i class="fab fa-telegram-plane text-2xl mr-3"></i>
+                <span>𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦</span>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://instagram.com/mbbs66_ms" target="_blank" class="group flex items-center justify-center w-full px-5 py-3 font-semibold text-white bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-xl shadow-md btn-hover transition-transform duration-300">
+                <i class="fa-brands fa-instagram-square text-2xl mr-3"></i>
+                <span>𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦</span>
+            </a>
+
+            <!-- Gmail 1 -->
+            <a href="mailto:miniaccesssurg@gmail.com" class="group flex items-center justify-center w-full px-5 py-3 font-semibold text-white bg-gradient-to-r from-red-500 to-red-700 rounded-xl shadow-md btn-hover transition-transform duration-300">
+                <i class="fa-solid fa-envelope text-2xl mr-3"></i>
+                <span>𝐦𝐢𝐧𝐢𝐚𝐜𝐜𝐞𝐬𝐬𝐬𝐮𝐫𝐠@𝐠𝐦𝐚𝐢𝐥.𝐜𝐨𝐦</span>
+            </a>
+
+            <!-- Gmail 2 -->
+            <a href="mailto:immenseaiexperts@gmail.com" class="group flex items-center justify-center w-full px-5 py-3 font-semibold text-white bg-gradient-to-r from-red-600 to-red-800 rounded-xl shadow-md btn-hover transition-transform duration-300">
+                <i class="fa-brands fa-google text-2xl mr-3"></i>
+                <span>𝐢𝐦𝐦𝐞𝐧𝐬𝐞𝐚𝐢𝐞𝐱𝐩𝐞𝐫𝐭𝐬@𝐠𝐦𝐚𝐢𝐥.𝐜𝐨𝐦</span>
+            </a>
+
+        </div>
+
+        <div class="mt-8 text-sm text-center text-gray-700 unicode-text">
+            <p>𝐀𝐚𝐩𝐤𝐞 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐤𝐚 𝐢𝐧𝐭𝐞𝐳𝐚𝐫 𝐫𝐚𝐡𝐞𝐠𝐚!</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
